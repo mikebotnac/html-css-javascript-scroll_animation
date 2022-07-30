@@ -1,0 +1,70 @@
+body {
+    background-color: gray;
+  }
+
+  .main {
+    background-color: white;
+    margin-top: 100vh;
+  }
+
+  .content {
+    max-width: 500px;
+    margin: auto;
+    height: 900px;
+    position: relative;
+  }
+
+  .Cashew {
+    width: 30px;
+    position: absolute;
+    right: calc(50% - 20px);
+    top: calc(40% - 350px);
+    transform: translate(50%);
+  }
+
+  .Cheese2 {
+    z-index: 9999;
+    width: 130px;
+    position: absolute;
+    left: calc(50% - 70px);
+    top: calc(40% - 200px);
+    transform: translate(50%);
+  }
+
+  .Cashew2 {
+    z-index: 9999;
+    width: 30px;
+    position: absolute;
+    right: calc(50% - 40px);
+    top: calc(40% - 110px);
+    transform: translate(50%);
+  }
+
+  .Cheese {
+    width: 200px;
+    position: absolute;
+    right: 50%;
+    top: 40%;
+    transform: translateX(50%) translateY(-50%);
+  }
+
+  .Cracker {
+    width: 180px;
+    position: absolute;
+    right: calc(50% - 90px);
+    top: calc(40% + 70px);
+    transform: translate(50%);
+  }
+
+  .Bread {
+    width: 300px;
+    position: absolute;
+    right: 50%;
+    top: calc(40% + 270px);
+    transform: translate(50%);
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
