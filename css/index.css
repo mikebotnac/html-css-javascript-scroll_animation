@@ -1,10 +1,9 @@
-body {
-    background-color: gray;
-  }
-
   .main {
     background-color: white;
-    margin-top: 100vh;
+  }
+
+  .topDev {
+    min-height: 100vh;
   }
 
   .content {
@@ -17,18 +16,16 @@ body {
   .Cashew {
     width: 30px;
     position: absolute;
-    right: calc(50% - 20px);
-    top: calc(40% - 350px);
-    transform: translate(50%);
+    right: calc(50% - 30px);
+    top: calc(40% - 192px - 58px);
   }
 
   .Cheese2 {
     z-index: 9999;
     width: 130px;
     position: absolute;
-    left: calc(50% - 70px);
-    top: calc(40% - 200px);
-    transform: translate(50%);
+    right: calc(50% - 65px);
+    top: calc(40% - 175px - 25px);
   }
 
   .Cashew2 {
@@ -36,7 +33,7 @@ body {
     width: 30px;
     position: absolute;
     right: calc(50% - 40px);
-    top: calc(40% - 110px);
+    top: calc(40% - 85px - 25px);
     transform: translate(50%);
   }
 
@@ -52,15 +49,14 @@ body {
     width: 180px;
     position: absolute;
     right: calc(50% - 90px);
-    top: calc(40% + 70px);
-    transform: translate(50%);
+    top: calc(40% + 53px + 17px);
   }
 
   .Bread {
     width: 300px;
     position: absolute;
     right: 50%;
-    top: calc(40% + 270px);
+    top: calc(40% + 223px + 47px);
     transform: translate(50%);
   }
 
